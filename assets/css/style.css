@@ -1,58 +1,5 @@
 body {
-
-    /* Background Image Settings */
-    
     background-image: url(pink-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* Site Border */
-
-    border: dashed;
-    border-color: cyan;
-    border-width: 8px;
 }
-
-p {
-    /* Changes the background to Cyan for better visibility */
-    background-color: cyan;
-
-    /* These edit the text alignment */
-    text-align: center;
-    
-    /* Changed the font to Franklin Gothic Medium for extra fanciness
-    It also makes the font a bit larger, as it was too small
-    for my tastes. */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
-}
-
-h1 {
-    /* This changes the font itself. */
-    font-size: 100px;
-    color: rgb(215, 17, 255);
-
-    /* I added a bottom border to emulate a dividing line */
-    border: dashed;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 8px;
-    border-color: cyan;
-
-
-    /* This changes the position of the text in the header. */
-    text-align: center;
-
-    /* This is an experiment with position settings.
-    I wanted to keep the header in place while the user scrolls so that they always see the h1 text */
-    position: sticky; top: 0; background-color: rgb(255, 161, 232);
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-/* deleted some stuff here, as it had no place */
