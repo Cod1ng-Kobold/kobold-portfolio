@@ -1,5 +1,39 @@
 body {
-    background-image: url(pink-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: aqua;
+}
+
+#mainbar {
+    background-color: pink;
+    border-radius: 5px 25px 25px 5px;
+    height: 50px;
+}
+#project {
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+h1 {
+    font-family: fantasy;
+    color: rgb(255, 39, 75);
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    text-align: center;
+    color: rgb(255, 39, 75);
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+#trinket {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
 }
